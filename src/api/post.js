@@ -1,14 +1,13 @@
-import axios from 'axios';
+import axios from "axios";
 
 /**
- * @param {object} params 
+ * @param {object} params
  */
 
 export function getAllPosts() {
-    return axios.get("https://jsonplaceholder.typicode.com/posts/")
+  return axios.get("https://jsonplaceholder.typicode.com/posts/");
 }
 
-
 export function getPostById(id) {
-    return axios.get(`https://jsonplaceholder.typicode.com/posts/${id}`)
+  return axios.get(`https://jsonplaceholder.typicode.com/posts/${id}`);
 }

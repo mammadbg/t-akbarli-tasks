@@ -49,8 +49,8 @@ export default {
   },
   methods: {
     getAllPosts() {
-      return new Promise((resolve,reject) => {
-          API.getAllPosts()
+      return new Promise((resolve, reject) => {
+        API.getAllPosts()
           .then((response) => {
             this.posts = response.data;
             resolve();

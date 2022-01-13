@@ -1,5 +1,4 @@
-import * as postServices from './post';
-
+import * as postServices from "./post";
 
 export default {
   ...postServices,
